@@ -1,6 +1,8 @@
 # Personal narratives @ ACL NUSE
 
-This repo contains supplementary material for the paper "Exploring aspects of similarity between spoken personal narratives by disentangling them into narrative clause types", in proceedings of the 2020 ACL NUSE Workshop.
+This repo contains supplementary material for the paper "[Exploring aspects of similarity between spoken personal narratives by disentangling them into narrative clause types](https://www.aclweb.org/anthology/2020.nuse-1.10/)", in proceedings of the [2020 ACL NUSE Workshop](https://www.aclweb.org/portal/content/1st-joint-workshop-narrative-understanding-storylines-and-events-nuse-acl-2020).
+
+> [paper](https://www.aclweb.org/anthology/2020.nuse-1.10/), [video @ ACL (10')](https://slideslive.com/38929749/exploring-aspects-of-similarity-between-spoken-personal-narratives-by-disentangling-them-into-narrative-clause-types), [video @ ICML (5')](https://slideslive.com/38931632/exploring-aspects-of-similarity-between-spoken-personal-narratives-by-disentangling-them-into-narrative-clause-types), [slides](https://drive.google.com/file/d/16tKOxqGmlQhMX0Ax-sukhqOMepePKzCL/view), [poster](https://drive.google.com/file/d/1d0ZZHTJS8yVCU6w0BVAANqGKqdy35M13/view), [@medialab](https://www.media.mit.edu/projects/personal-narratives/overview/)
 
 > Saldias, B., & Roy, D. (July, 2020) Exploring aspects of similarity between spoken personal narratives by disentangling them into narrative clause types. *Proceedings of the 2020 ACL Workshop on Narrative Understanding, Storylines, and Events* (NUSE). ACL.
 
@@ -30,6 +32,14 @@ We introduce the largest dataset of annotated spoken personal narratives to our 
         Figure 1: A fragment of a personal narrative in the RTN corpus annotated by Turkers using Labov’s model.
 </p>
 
+### Download
+
+This material is made available under a Creative Commons Attribution 4.0 International License. Please attribute any use of this material to Saldias, B., & Roy, D. (2020) and cite as stated in section Citation below. To download, please either go to our [`data`](https://github.com/social-machines/acl-nuse-personal-narratives/tree/master/data) folder or use the following command:
+
+```
+wget --quiet https://raw.githubusercontent.com/social-machines/acl-nuse-personal-narratives/master/data/Saldias%26Roy-RTN_data.csv
+```
+
 
 ## Annotation tasks
 
@@ -41,6 +51,26 @@ Find the Mechanical Turk requester HTML template for the three tasks described i
 MTurk Task 1            |  Mturk Task 2
 :-------------------------:|:-------------------------:
 ![](static/task-0.png)  |  ![](static/task-1.png)
+
+
+## Citation
+
+If you use content in this repo, please consider citing us as below:
+
+```
+@inproceedings{saldias-roy-2020-exploring,
+    title = "Exploring aspects of similarity between spoken personal narratives by disentangling them into narrative clause types",
+    author = "Saldias, Belen  and
+      Roy, Deb",
+    booktitle = "Proceedings of the First Joint Workshop on Narrative Understanding, Storylines, and Events",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.nuse-1.10",
+    pages = "78--86",
+    }
+```
 
 
 ## Acknowledgments
